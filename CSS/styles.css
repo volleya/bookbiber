@@ -1,14 +1,14 @@
 ﻿
    .cyrilic { 
-    list-style-type: none; /* Прячем исходную нумерацию */
+    list-style-type: none; /* Ховаємо початкову нумерацію */
     margin-left: -0px;
     text-indent: -35px;
    }
    .cyrilic li::before {
-    margin-right: 5px; /* Расстояние от буквы до текста */
+    margin-right: 5px; /* Відстань від букви до тексту */
     width: 1em; /* Ширина */
-    text-align: right; /* Выравнивание по правому краю */
-    display: inline-block; /* Строчно-блочный элемент */
+    text-align: right; /* Вирівнювання по правому краю */
+    display: inline-block; /* Рядково-блоковий елемент */
    }
    .cyrilic li:nth-child(1)::before { content: 'а)'; }
    .cyrilic li:nth-child(2)::before { content: 'б)'; }
