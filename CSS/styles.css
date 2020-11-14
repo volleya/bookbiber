@@ -27,14 +27,25 @@
 }
 
 
+ppp {
+   line-height: 3.2 ;
+   margin-top: 0px;
+   margin-bottom: 25px ;
+   text-indent: 30px ;
+   font-size: 50px;
+}
+
 p {
-    line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 5px;
-    text-indent: 10px;
-    font-size: 20px;
+	line-height: 1.1;
+	margin: 8px;
+	font-size: 20px;
+	padding: 0px;
 }
- div {
-   padding: 10px;
-   border: 1px solid #4CAF50;
+
+ ddiv {
+   padding: 0px;
+   font-size: 20px;
+   boorder: 1px solid #4CAF50;
 }
+
+
