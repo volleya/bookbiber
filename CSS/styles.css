@@ -48,4 +48,31 @@ p {
    boorder: 1px solid #4CAF50;
 }
 
+* {
+  box-sizing: border-box;
+}
 
+.flex-container {
+  display: flex;
+  ppadding: 40px;
+  flex-direction: row;
+  ttext-align: left;
+}
+
+.flex-item-left {
+  flex: 25%;
+  padding-left: 20px;
+  padding-top: 25px;
+}
+
+.flex-item-right {
+   flex: 75%;
+   padding-left: 20px;   
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
