@@ -33,9 +33,7 @@
 
 .flex-container {
   display: flex;
-  ppadding: 40px;
   flex-direction: row;
-  ttext-align: left;
 }
 
 .flex-item-left {
@@ -46,8 +44,7 @@
 
 .flex-item-right {
    flex: 75%;
-   padding-left: 20px;
-   ttext-align: left;   
+   padding-left: 20px;  
 }
 
 /* Responsive layout - makes a one column-layout instead of two-column layout */
@@ -55,15 +52,6 @@
   .flex-container {
     flex-direction: column;
   }
-}
-
-
-ppp {
-   line-height: 3.2 ;
-   margin-top: 0px;
-   margin-bottom: 25px ;
-   text-indent: 30px ;
-   font-size: 50px;
 }
 
 h2 {
@@ -85,11 +73,5 @@ p {
 	margin: 8px;
 	font-size: 20px;
 	padding: 0px;
-}
-
- ddiv {
-   padding: 0px;
-   font-size: 20px;
-   boorder: 1px solid #4CAF50;
 }
 
